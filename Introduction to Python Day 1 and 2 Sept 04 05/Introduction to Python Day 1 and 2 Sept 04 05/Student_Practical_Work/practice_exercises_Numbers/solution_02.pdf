@@ -1,0 +1,98 @@
+%PDF-1.1
+1 0 obj
+<<
+/CreationDate (D:20151112090356)
+/Producer (text2pdf v1.1 (\251 Phil Smith, 1996))
+/Title (solution-02.py)
+>>
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+  /Font << /F1 4 0 R >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+6 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 5 0 R
+/Contents 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Length 8 0 R
+>>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 752 Tm
+12 TL
+(#!/usr/bin/env python3)'
+()'
+(# The cost of one server per hour.)'
+(cost_per_hour = 0.51)'
+()'
+(# Compute the costs for one server.)'
+(cost_per_day = 24 * cost_per_hour)'
+(cost_per_month = 30 * cost_per_day)'
+()'
+(# Compute the costs for twenty servers)'
+(cost_per_day_twenty = 20 * cost_per_day)'
+(cost_per_month_twenty = 20 * cost_per_month)'
+()'
+(# Budgeting)'
+(budget = 918)'
+(operational_days = budget / cost_per_day)'
+()'
+(# Display the results.)'
+(print\('Cost to operate one server per day is ${:.2f}.'.format\(cost_per_day\)\))'
+(print\('Cost to operate one server per month is ${:.2f}.'.format\(cost_per_month\)\))'
+()'
+(print\('Cost to operate twenty servers per day is ${:.2f}.'.format\(cost_per_day_t)'
+(wenty\)\))'
+(print\('Cost to operate twenty servers per month is ${:.2f}.'.format\(cost_per_mon)'
+(th_twenty\)\))'
+(print\('A server can operate on a ${0:.2f} budget for {1:.0f} days.'.format\(budge)'
+(t, operational_days\)\))'
+()'
+ET
+endstream
+endobj
+8 0 obj
+990
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 1
+/MediaBox [ 0 0 612 792 ]
+/Kids [ 6 0 R ]
+>>
+endobj
+xref
+0 9
+0000000000 65535 f 0000000009 00000 n 0000000137 00000 n 0000001476 00000 n 0000000186 00000 n 0000000264 00000 n 0000000335 00000 n 0000000415 00000 n 0000001457 00000 n trailer
+<<
+/Size 9
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+1561
+%%EOF
