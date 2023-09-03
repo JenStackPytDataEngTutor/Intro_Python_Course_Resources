@@ -1,4 +1,4 @@
-# Intro_Python_Day_One_Resources
+# Intro_Python_Day_One_and_Day_Two_Resources
 Introduction to Python Programming Course Materials for Day 1 of 15 day course.
 Instructions:
 1. open cmd on your desktop
